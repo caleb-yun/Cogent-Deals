@@ -1,0 +1,77 @@
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\com.cogentworks.cogentdeals.apk
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\com.cogentworks.cogentdeals-Signed.apk
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent_Deals.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent_Deals.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent_Deals.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.dll
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.pdb
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\bin\com.cogentworks.cogentdeals.apk
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\values\styles.xml
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\R.cs.flag
+C:\Users\Caleb\documents\visual studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\uploadflags.txt
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.config
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Cogent Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.mdb

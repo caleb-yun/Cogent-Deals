@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cogent_Deals.MainPage"
+             Title="Deals">
+  <ContentPage.Content>
+    <StackLayout>
+      <!--<ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>-->
+      <ListView x:Name="DealList"
+                ItemsSource="{Binding Items}"
+                ItemTapped="OnItemTapped">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ImageCell Text="{Binding Title}"
+                       Detail="{Binding Category}"
+                       ImageSource="{Binding Images.image_intro}" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,11 @@
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\Cogent_Deals.WinPhone.csprojResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\App.g.i.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\App.g.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\MainPage.g.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\App.xaml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\MainPage.xaml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\App.xbf
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\MainPage.xbf
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.WinPhone\obj\Debug\XamlSaveStateFile.xml
