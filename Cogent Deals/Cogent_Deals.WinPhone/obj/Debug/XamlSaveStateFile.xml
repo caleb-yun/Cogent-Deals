@@ -1,6 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\cogent deals\cogent_deals\bin\debug\cogent_deals.dll" HashGuid="ff95e146-7474-8734-69fa-3fc0b9220717" />
+    <LocalAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\cogent deals\cogent_deals.winphone\obj\debug\intermediatexaml\cogent_deals.winphone.exe" HashGuid="a25ae359-9bb0-3d96-7596-d2e5ea0ad21e" />
+    <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\cogent deals\cogent_deals\bin\debug\cogent_deals.dll" HashGuid="c1ac1a5c-4efe-cfe3-207b-151ba0a23616" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.core.dll" HashGuid="c782f70f-077f-7e2d-5bd4-f6b5da067f8a" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="fe4acc44-27ba-0e4e-a08b-26ae7dccb678" />

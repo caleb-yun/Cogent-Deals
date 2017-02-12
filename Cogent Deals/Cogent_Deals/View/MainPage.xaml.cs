@@ -17,6 +17,25 @@ namespace Cogent_Deals
         {
             InitializeComponent();
             this.viewModel = new MainPageViewModel();
+
+            DealList.ItemAppearing += async (sender, e) =>
+            {
+                if (viewModel.IsBusy || viewModel.Items.Count == 0)
+                    return;
+
+                //hit bottom!
+                if (e.Item == viewModel.Items[viewModel.Items.Count - 1])
+                {
+                    this.BusyIndicator.IsVisible = true;
+                    this.BusyIndicator.IsRunning = true;
+
+                    viewModel.Count++;
+                    await viewModel.LoadMore(viewModel.Count);
+
+                    this.BusyIndicator.IsVisible = false;
+                    this.BusyIndicator.IsRunning = false;
+                }
+            };
         }
 
         async public void OnItemTapped(object o, ItemTappedEventArgs e)
@@ -49,6 +68,7 @@ namespace Cogent_Deals
             finally
             {
                 this.DealList.IsRefreshing = false;
+                viewModel.Count = 0;
             }
         }
 
@@ -73,6 +93,7 @@ namespace Cogent_Deals
             }
             finally
             {
+                viewModel.Count = 0;
                 this.DealList.IsRefreshing = false;
             }
         }

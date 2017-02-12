@@ -13,6 +13,8 @@ namespace Cogent_Deals
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
+        public int Count;
+
         private bool isBusy;
         public bool IsBusy
         {
@@ -43,9 +45,17 @@ namespace Cogent_Deals
         {
             RestClient restClient = new RestClient();
 
-            var dealList = await restClient.GetAsync("http://cogentdeals.com/api/get/content/articles?catid=109&limit=10&maxsubs=10");
+            Items = await restClient.GetAsync("http://cogentdeals.com/api/get/content/articles?catid=109&limit=10&maxsubs=10");
+        }
 
-            Items = dealList;
+        public async Task LoadMore(int count)
+        {
+            this.IsBusy = true;
+
+            RestClient restClient = new RestClient();
+            Items.AddRange(await restClient.GetAsync(string.Format("http://cogentdeals.com/api/get/content/articles?catid=109&limit=10&maxsubs=10&offset={0}", count*10)));
+
+            isBusy = false;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

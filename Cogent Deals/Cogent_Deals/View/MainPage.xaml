@@ -17,7 +17,9 @@
                        ImageSource="{Binding Images.image_intro}" />
           </DataTemplate>
         </ListView.ItemTemplate>
-        <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>
+        <ListView.Footer>
+          <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>
+        </ListView.Footer>
       </ListView>
     </StackLayout>
   </ContentPage.Content>

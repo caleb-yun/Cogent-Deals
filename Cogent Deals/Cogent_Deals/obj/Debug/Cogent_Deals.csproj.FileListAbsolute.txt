@@ -12,7 +12,6 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.pdb
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csprojResolveAssemblyReference.cache
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.config
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\System.Net.Http.dll
@@ -23,7 +22,6 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csproj.App.config
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csprojResolveAssemblyReference.cache
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
