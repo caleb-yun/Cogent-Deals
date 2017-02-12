@@ -20,9 +20,13 @@ namespace Cogent_Deals {
         private global::Xamarin.Forms.ListView DealList;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ActivityIndicator BusyIndicator;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             DealList = this.FindByName<global::Xamarin.Forms.ListView>("DealList");
+            BusyIndicator = this.FindByName<global::Xamarin.Forms.ActivityIndicator>("BusyIndicator");
         }
     }
 }

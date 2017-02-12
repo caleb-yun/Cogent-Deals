@@ -22,7 +22,6 @@ namespace Cogent_Deals
         async public void OnItemTapped(object o, ItemTappedEventArgs e)
         {
             var per = e.Item as Deal;
-            //DisplayAlert("Selection made", "You tapped on " + per.Name, "OK");
             ((ListView)o).SelectedItem = null; // Disable selection
             await Navigation.PushAsync(new DealPage(per), true); // Navigate to DealPage
         }
@@ -31,8 +30,6 @@ namespace Cogent_Deals
         {
             base.OnAppearing();
             this.DealList.IsRefreshing = true;
-            //this.BusyIndicator.IsVisible = true;
-            //this.BusyIndicator.IsRunning = true;
             try
             {
                 await this.viewModel.InitializeDealsAsync();
@@ -52,9 +49,37 @@ namespace Cogent_Deals
             finally
             {
                 this.DealList.IsRefreshing = false;
-                //this.BusyIndicator.IsVisible = false;
-                //this.BusyIndicator.IsRunning = false;
             }
+        }
+
+        private async Task LoadDataAsync()
+        {
+            this.DealList.IsRefreshing = true;
+
+            try
+            {
+                await this.viewModel.InitializeDealsAsync();
+                this.BindingContext = this.viewModel;
+            }
+            catch (InvalidOperationException ex)
+            {
+                await DisplayAlert("Error", "Check your network connection.", "OK");
+                return;
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+                return;
+            }
+            finally
+            {
+                this.DealList.IsRefreshing = false;
+            }
+        }
+
+        private async void ListView_Refreshing(object sender, EventArgs e)
+        {
+            await LoadDataAsync();
         }
     }
 }

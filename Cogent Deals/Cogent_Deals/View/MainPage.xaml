@@ -5,10 +5,11 @@
              Title="Deals">
   <ContentPage.Content>
     <StackLayout>
-      <!--<ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>-->
       <ListView x:Name="DealList"
                 ItemsSource="{Binding Items}"
-                ItemTapped="OnItemTapped">
+                ItemTapped="OnItemTapped"
+                IsPullToRefreshEnabled="True"
+                Refreshing="ListView_Refreshing">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell Text="{Binding Title}"
@@ -16,6 +17,7 @@
                        ImageSource="{Binding Images.image_intro}" />
           </DataTemplate>
         </ListView.ItemTemplate>
+        <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>
       </ListView>
     </StackLayout>
   </ContentPage.Content>
