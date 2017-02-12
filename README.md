@@ -4,7 +4,7 @@ Written in C# with Xamarin.Forms
 
 ##TODO
 - Lazy item loading
-- Slide to refresh
+- ~~Pull to refresh~~
 - Link to webpage
 - Navigation
 - SearchBar
