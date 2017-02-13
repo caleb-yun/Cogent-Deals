@@ -11,11 +11,11 @@
       <Image Source="{Binding Deal.Images.image_intro}"/>
       <Button Text="Get Deal"
               TextColor="White"
-              BorderRadius="30"
               WidthRequest="300"
               HeightRequest="60"
               FontSize="Medium"
-              BackgroundColor="#27ae60" />
+              BackgroundColor="#27ae60"
+              Margin="20"/>
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>

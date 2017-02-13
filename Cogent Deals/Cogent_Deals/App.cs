@@ -13,6 +13,7 @@ namespace Cogent_Deals
         {
             // The root page of your application
             MainPage = new NavigationPage(new MainPage());
+            MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
         }
 
         protected override void OnStart()
