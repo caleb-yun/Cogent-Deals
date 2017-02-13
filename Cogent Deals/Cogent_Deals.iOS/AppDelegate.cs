@@ -22,7 +22,7 @@ namespace Cogent_Deals.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(43, 132, 211); //bar background
+            UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(33, 150, 243); //bar background
             UINavigationBar.Appearance.TintColor = UIColor.White; //Tint color of button items
             UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes()
             {
