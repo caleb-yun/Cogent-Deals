@@ -17,6 +17,9 @@ namespace Cogent_Deals {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ToolbarItem searchToolbarItem;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView DealList;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -25,6 +28,7 @@ namespace Cogent_Deals {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
+            searchToolbarItem = this.FindByName<global::Xamarin.Forms.ToolbarItem>("searchToolbarItem");
             DealList = this.FindByName<global::Xamarin.Forms.ListView>("DealList");
             BusyIndicator = this.FindByName<global::Xamarin.Forms.ActivityIndicator>("BusyIndicator");
         }

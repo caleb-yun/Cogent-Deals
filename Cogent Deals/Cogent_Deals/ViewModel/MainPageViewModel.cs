@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Plugin.RestClient;
 using Xamarin.Forms;
 using System.Runtime.CompilerServices;
+using Xamarin;
 
 namespace Cogent_Deals
 {

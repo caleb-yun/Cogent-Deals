@@ -20,6 +20,16 @@ namespace Cogent_Deals
 
         [JsonProperty("category_title")]
         public string Category { get; set; }
+
+        [JsonProperty("attribs")]
+        public string Attribs { get; set; }
+
+        public Attribs Fields
+        {
+            get { return JsonConvert.DeserializeObject<Attribs>(this.Attribs); }
+            set { _attribs = value; }
+        }
+        private Attribs _attribs;
     }
 
     public class Images
@@ -32,5 +42,16 @@ namespace Cogent_Deals
         }
 
         private string _image_intro;
+    }
+
+    public class Attribs
+    {
+        [JsonProperty("item-price")]
+        public string ItemPrice { get { return "$" + itemPrice; } set { itemPrice = value; } }
+
+        private string itemPrice;
+
+        [JsonProperty("item-url")]
+        public string ItemUrl { get; set; }
     }
 }

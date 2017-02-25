@@ -3,22 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cogent_Deals.MainPage"
              Title="Deals">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="searchToolbarItem" Icon="search.png" Text="Search" />
+  </ContentPage.ToolbarItems>
   <ContentPage.Content>
     <StackLayout>
       <ListView x:Name="DealList"
                 ItemsSource="{Binding Items}"
                 ItemTapped="OnItemTapped"
                 IsPullToRefreshEnabled="True"
-                Refreshing="ListView_Refreshing">
+                Refreshing="ListView_Refreshing"
+                ItemAppearing="loadMore">
         <ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell Text="{Binding Title}"
-                       Detail="{Binding Category}"
+                       TextColor="#dd000000"
+                       Detail="{Binding Fields.ItemPrice}"
+                       DetailColor="#89000000"
                        ImageSource="{Binding Images.image_intro}" />
           </DataTemplate>
         </ListView.ItemTemplate>
         <ListView.Footer>
-          <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>
+          <StackLayout>
+            <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>
+          </StackLayout>
         </ListView.Footer>
       </ListView>
     </StackLayout>

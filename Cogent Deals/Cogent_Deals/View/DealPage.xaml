@@ -4,18 +4,29 @@
              x:Class="Cogent_Deals.DealPage"
              Title="{Binding Deal.Title}">
   <ContentPage.Content>
+  <ScrollView>
     <StackLayout>
-      <Label Text="{Binding Deal.Title}" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,20,0,0"/>
-      <Label Text="{Binding Deal.Category}" TextColor="#27ae60" FontSize="Large" HorizontalTextAlignment="Center"/>
-      <Label Text="{Binding Deal.Id}" FontSize="Medium" HorizontalTextAlignment="Center"/>
-      <Image Source="{Binding Deal.Images.image_intro}"/>
-      <Button Text="Get Deal"
+      
+      <Image Source="{Binding Deal.Images.image_intro}" HeightRequest="200" Margin="20"/>
+      
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button Text="Get Deal"
               TextColor="White"
-              WidthRequest="300"
-              HeightRequest="60"
               FontSize="Medium"
-              BackgroundColor="#27ae60"
-              Margin="20"/>
+              BackgroundColor="#4CAF50"
+              HeightRequest="60"
+              Clicked="OnClicked"/>
+        <Label Text="{Binding Deal.Fields.ItemPrice}"
+               FontSize="Large" TextColor="#dd000000"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Margin="20, 10"/>
+      </StackLayout>
+      
+      <Label Text="{Binding Deal.Title}" FontSize="Medium" TextColor="#dd000000" HorizontalTextAlignment="Start" Margin="20, 10"/>
+      <Label Text="{Binding Deal.Category}" TextColor="#89000000" FontSize="Medium" HorizontalTextAlignment="Start" Margin="20, 0"/>
+    
     </StackLayout>
+  </ScrollView>
   </ContentPage.Content>
 </ContentPage>

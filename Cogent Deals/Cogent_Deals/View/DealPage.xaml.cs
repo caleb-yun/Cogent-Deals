@@ -18,5 +18,10 @@ namespace Cogent_Deals
 
             BindingContext = viewModel = new DealPageViewModel(deal);
         }
+
+        public void OnClicked(object sender, EventArgs args)
+        {
+            Device.OpenUri(new Uri(viewModel.Deal.Fields.ItemUrl));
+        }
     }
 }

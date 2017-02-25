@@ -17,25 +17,7 @@ namespace Cogent_Deals
         {
             InitializeComponent();
             this.viewModel = new MainPageViewModel();
-
-            DealList.ItemAppearing += async (sender, e) =>
-            {
-                if (viewModel.IsBusy || viewModel.Items.Count == 0)
-                    return;
-
-                //hit bottom!
-                if (e.Item == viewModel.Items[viewModel.Items.Count - 1])
-                {
-                    this.BusyIndicator.IsVisible = true;
-                    this.BusyIndicator.IsRunning = true;
-
-                    viewModel.Count++;
-                    await viewModel.LoadMore(viewModel.Count);
-
-                    this.BusyIndicator.IsVisible = false;
-                    this.BusyIndicator.IsRunning = false;
-                }
-            };
+            BindingContext = this.viewModel;
         }
 
         async public void OnItemTapped(object o, ItemTappedEventArgs e)
@@ -45,33 +27,6 @@ namespace Cogent_Deals
             await Navigation.PushAsync(new DealPage(per), true); // Navigate to DealPage
         }
 
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-            this.DealList.IsRefreshing = true;
-            try
-            {
-                await this.viewModel.InitializeDealsAsync();
-                // Data-binding:
-                this.BindingContext = this.viewModel;
-            }
-            catch (InvalidOperationException ex)
-            {
-                await DisplayAlert("Error", "Check your network connection.", "OK");
-                return;
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error", ex.Message, "OK");
-                return;
-            }
-            finally
-            {
-                this.DealList.IsRefreshing = false;
-                viewModel.Count = 0;
-            }
-        }
-
         private async Task LoadDataAsync()
         {
             this.DealList.IsRefreshing = true;
@@ -79,7 +34,7 @@ namespace Cogent_Deals
             try
             {
                 await this.viewModel.InitializeDealsAsync();
-                this.BindingContext = this.viewModel;
+                //this.BindingContext = this.viewModel;
             }
             catch (InvalidOperationException ex)
             {
@@ -98,9 +53,44 @@ namespace Cogent_Deals
             }
         }
 
+        private bool appearingFirstTime = true;
+
+        protected async override void OnAppearing()
+        {
+            if (appearingFirstTime)
+            {
+                await LoadDataAsync();
+            }
+            else
+            {
+                return;
+            }
+
+            appearingFirstTime = false;
+        }
+
         private async void ListView_Refreshing(object sender, EventArgs e)
         {
             await LoadDataAsync();
+        }
+
+        private async void loadMore(object sender, ItemVisibilityEventArgs e)
+        {
+            if (viewModel.IsBusy || viewModel.Items.Count == 0)
+                return;
+
+            //hit bottom!
+            if (e.Item == viewModel.Items[viewModel.Items.Count - 1])
+            {
+                this.BusyIndicator.IsVisible = true;
+                this.BusyIndicator.IsRunning = true;
+
+                viewModel.Count++;
+                await viewModel.LoadMore(viewModel.Count);
+
+                this.BusyIndicator.IsVisible = false;
+                this.BusyIndicator.IsRunning = false;
+            }
         }
     }
 }
