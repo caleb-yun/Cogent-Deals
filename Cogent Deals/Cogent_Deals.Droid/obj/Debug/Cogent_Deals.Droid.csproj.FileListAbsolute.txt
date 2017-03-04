@@ -77,5 +77,33 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\search.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\search.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\search.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.Droid.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.pdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.pdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.Droid.pdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.Droid.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Platform.pdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Transformations.pdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Forms.Droid.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Platform.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\FFImageLoading.Transformations.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FFImageLoading.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FFImageLoading.Forms.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FFImageLoading.Forms.Droid.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FFImageLoading.Platform.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\FFImageLoading.Transformations.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\System.ObjectModel.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\splash_screen.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.mdb

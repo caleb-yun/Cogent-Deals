@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using FFImageLoading.Forms.Touch;
 
 using Foundation;
 using UIKit;
@@ -32,6 +33,8 @@ namespace Cogent_Deals.iOS
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            CachedImageRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }

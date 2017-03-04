@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="Cogent_Deals.MainPage"
              Title="Deals">
   <ContentPage.ToolbarItems>
@@ -13,16 +15,41 @@
                 ItemTapped="OnItemTapped"
                 IsPullToRefreshEnabled="True"
                 Refreshing="ListView_Refreshing"
-                ItemAppearing="loadMore">
-        <ListView.ItemTemplate>
+                ItemAppearing="loadMore"
+                CachingStrategy="RetainElement"
+                RowHeight="60" HasUnevenRows="false">
+        <!--<ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell Text="{Binding Title}"
                        TextColor="#dd000000"
                        Detail="{Binding Fields.ItemPrice}"
                        DetailColor="#89000000"
-                       ImageSource="{Binding Images.image_intro}" />
+                       ImageSource="{Binding Images.image_intro}"/>
+          </DataTemplate>
+        </ListView.ItemTemplate>-->
+
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell StyleId="disclosure" Height="60">
+              <AbsoluteLayout>
+                <StackLayout Orientation="Horizontal" Spacing="0" AbsoluteLayout.LayoutFlags="XProportional" AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize">
+                  <ContentView Margin="3" WidthRequest="54">
+                    <ffimageloading:CachedImage HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="50" HeightRequest="50" DownsampleToViewSize="true" Source="{Binding Images.image_intro}" FadeAnimationEnabled="true">
+                    </ffimageloading:CachedImage>
+                  </ContentView>
+                  <ContentView Padding="10,0,0,0">
+                    <StackLayout Spacing="0">
+                      <Label Text="{Binding Title}" HeightRequest="20" VerticalTextAlignment="End" TextColor="#dd000000" LineBreakMode="TailTruncation"/>
+                      <Label Text="{Binding Fields.ItemPrice}" HeightRequest="20" VerticalTextAlignment="Center" FontSize="Small" LineBreakMode="TailTruncation" TextColor="#89000000"/>
+                      <Label Text="{Binding Category}" HeightRequest="20" VerticalTextAlignment="Start" FontSize="Micro" LineBreakMode="TailTruncation" TextColor="Silver" />
+                    </StackLayout>
+                  </ContentView>
+                </StackLayout>
+              </AbsoluteLayout>
+            </ViewCell>
           </DataTemplate>
         </ListView.ItemTemplate>
+
         <ListView.Footer>
           <StackLayout>
             <ActivityIndicator x:Name="BusyIndicator" IsRunning="False" IsVisible="False"/>

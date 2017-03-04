@@ -14,7 +14,7 @@ namespace Cogent_Deals
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
-        public int Count;
+        public int Count = 0;
 
         private bool isBusy;
         public bool IsBusy
@@ -30,17 +30,9 @@ namespace Cogent_Deals
             }
         }
 
-        private List<Deal> _items;
+        private ObservableCollection<Deal> _items;
 
-        public List<Deal> Items
-        {
-            get { return _items; }
-            set
-            {
-                _items = value;
-                OnPropertyChanged();
-            }
-        }
+        public ObservableCollection<Deal> Items { get; set; }
 
         public async Task InitializeDealsAsync()
         {
@@ -54,7 +46,12 @@ namespace Cogent_Deals
             this.IsBusy = true;
 
             RestClient restClient = new RestClient();
-            Items.AddRange(await restClient.GetAsync(string.Format("http://cogentdeals.com/api/get/content/articles?catid=109&limit=15&maxsubs=10&offset={0}", count * 15)));
+            var moreItems = await restClient.GetAsync(string.Format("http://cogentdeals.com/api/get/content/articles?catid=109&limit=15&maxsubs=10&offset={0}", count * 15));
+
+            foreach (var deal in moreItems)
+            {
+                Items.Add(deal);
+            }
 
             isBusy = false;
         }

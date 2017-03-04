@@ -19,7 +19,7 @@ namespace Plugin.RestClient
     {
         private const string WebServiceUrl = "http://cogentdeals.com/api/get/content/articles?catid=109&limit=10&maxsubs=10";
 
-        public async Task<List<Deal>> GetAsync(string uri)
+        public async Task<ObservableCollection<Deal>> GetAsync(string uri)
         {
             var httpClient = new HttpClient();
             var response = await httpClient.GetStringAsync(uri);
@@ -28,7 +28,7 @@ namespace Plugin.RestClient
             JObject json = JObject.Parse(response);
             List<JToken> articles = json["articles"].Children().ToList();
 
-            List<Deal> Deals = new List<Deal>();
+            ObservableCollection<Deal> Deals = new ObservableCollection<Deal>();
             foreach(JToken article in articles)
                 {
                     Deal deal = JsonConvert.DeserializeObject<Deal>(article.ToString());

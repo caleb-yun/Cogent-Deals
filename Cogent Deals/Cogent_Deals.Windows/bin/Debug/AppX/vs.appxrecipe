@@ -28,17 +28,45 @@
     <AppXManifest Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-02T09:01:29.086</Modified>
+      <Modified>2017-03-04T05:10:58.627</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Windows\bin\Debug\Cogent_Deals.Windows.exe">
       <PackagePath>Cogent_Deals.Windows.exe</PackagePath>
-      <Modified>2017-02-02T09:01:28.074</Modified>
+      <Modified>2017-03-04T05:10:57.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll">
       <PackagePath>Cogent_Deals.dll</PackagePath>
-      <Modified>2017-02-01T07:21:51.440</Modified>
+      <Modified>2017-03-04T05:09:05.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.dll">
+      <PackagePath>FFImageLoading.dll</PackagePath>
+      <Modified>2017-02-26T02:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Forms.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Forms.dll">
+      <PackagePath>FFImageLoading.Forms.dll</PackagePath>
+      <Modified>2017-02-26T02:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Forms.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Forms.WinRT.dll">
+      <PackagePath>FFImageLoading.Forms.WinRT.dll</PackagePath>
+      <Modified>2017-02-26T02:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Platform.dll">
+      <PackagePath>FFImageLoading.Platform.dll</PackagePath>
+      <Modified>2017-02-26T02:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Transformations.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Transformations.dll">
+      <PackagePath>FFImageLoading.Transformations.dll</PackagePath>
+      <Modified>2017-02-26T02:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-02-20T04:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-02-20T04:10:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -90,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2017-02-02T09:01:27.955</Modified>
+      <Modified>2017-02-12T06:56:25.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2017-02-02T09:01:27.956</Modified>
+      <Modified>2017-02-12T06:56:25.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
@@ -127,7 +155,7 @@
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-02T09:01:28.782</Modified>
+      <Modified>2017-03-04T05:10:58.299</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

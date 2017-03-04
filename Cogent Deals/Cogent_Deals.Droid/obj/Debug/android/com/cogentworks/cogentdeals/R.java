@@ -2559,8 +2559,10 @@ containing a value of this type.
         public static final int mr_ic_pause_light=0x7f02009e;
         public static final int mr_ic_play_dark=0x7f02009f;
         public static final int mr_ic_play_light=0x7f0200a0;
-        public static final int notification_template_icon_bg=0x7f0200a2;
+        public static final int notification_template_icon_bg=0x7f0200a4;
         public static final int search=0x7f0200a1;
+        public static final int splash_logo=0x7f0200a2;
+        public static final int splash_screen=0x7f0200a3;
     }
     public static final class id {
         public static final int action0=0x7f07008b;
@@ -3209,6 +3211,7 @@ containing a value of this type.
         public static final int Widget_MediaRouter_ControllerText_Title_Light=0x7f0a0014;
         public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0a0015;
         public static final int Widget_MediaRouter_MediaRouteButton=0x7f0a0016;
+        public static final int splashscreen=0x7f0a0175;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

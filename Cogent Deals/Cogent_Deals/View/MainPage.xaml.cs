@@ -17,6 +17,7 @@ namespace Cogent_Deals
         {
             InitializeComponent();
             this.viewModel = new MainPageViewModel();
+            LoadDataAsync();
             BindingContext = this.viewModel;
         }
 
@@ -34,7 +35,8 @@ namespace Cogent_Deals
             try
             {
                 await this.viewModel.InitializeDealsAsync();
-                //this.BindingContext = this.viewModel;
+                this.BindingContext = this.viewModel;
+                DealList.ItemsSource = this.viewModel.Items;
             }
             catch (InvalidOperationException ex)
             {
@@ -51,22 +53,6 @@ namespace Cogent_Deals
                 viewModel.Count = 0;
                 this.DealList.IsRefreshing = false;
             }
-        }
-
-        private bool appearingFirstTime = true;
-
-        protected async override void OnAppearing()
-        {
-            if (appearingFirstTime)
-            {
-                await LoadDataAsync();
-            }
-            else
-            {
-                return;
-            }
-
-            appearingFirstTime = false;
         }
 
         private async void ListView_Refreshing(object sender, EventArgs e)

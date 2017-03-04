@@ -100,7 +100,13 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Cogent Deals.dll" comes first in this list. */
 		"Cogent Deals.dll",
 		"Cogent_Deals.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Droid.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
+		"System.ObjectModel.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",

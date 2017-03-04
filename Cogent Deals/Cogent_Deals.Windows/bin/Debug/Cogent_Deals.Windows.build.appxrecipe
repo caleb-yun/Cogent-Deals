@@ -28,6 +28,27 @@
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll">
       <PackagePath>Cogent_Deals.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.dll">
+      <PackagePath>FFImageLoading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Forms.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Forms.dll">
+      <PackagePath>FFImageLoading.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Forms.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Forms.WinRT.dll">
+      <PackagePath>FFImageLoading.Forms.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Platform.dll">
+      <PackagePath>FFImageLoading.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.FFImageLoading.Transformations.2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Transformations.dll">
+      <PackagePath>FFImageLoading.Transformations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent Deals\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
