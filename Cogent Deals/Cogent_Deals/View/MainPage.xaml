@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
-             x:Class="Cogent_Deals.MainPage"
-             Title="Deals">
+             x:Class="Cogent_Deals.MainPage">
   <ContentPage.ToolbarItems>
     <ToolbarItem x:Name="searchToolbarItem" Icon="search.png" Text="Search" />
   </ContentPage.ToolbarItems>
@@ -18,19 +17,12 @@
                 ItemAppearing="loadMore"
                 CachingStrategy="RetainElement"
                 RowHeight="60" HasUnevenRows="false">
-        <!--<ListView.ItemTemplate>
-          <DataTemplate>
-            <ImageCell Text="{Binding Title}"
-                       TextColor="#dd000000"
-                       Detail="{Binding Fields.ItemPrice}"
-                       DetailColor="#89000000"
-                       ImageSource="{Binding Images.image_intro}"/>
-          </DataTemplate>
-        </ListView.ItemTemplate>-->
-
+        <ListView.SeparatorColor>
+          <OnPlatform x:TypeArguments="Color" iOS="Silver" />
+        </ListView.SeparatorColor>
         <ListView.ItemTemplate>
           <DataTemplate>
-            <ViewCell StyleId="disclosure" Height="60">
+            <ViewCell Height="60">
               <AbsoluteLayout>
                 <StackLayout Orientation="Horizontal" Spacing="0" AbsoluteLayout.LayoutFlags="XProportional" AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize">
                   <ContentView Margin="3" WidthRequest="54">

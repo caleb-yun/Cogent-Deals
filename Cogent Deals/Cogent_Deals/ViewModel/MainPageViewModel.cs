@@ -14,6 +14,10 @@ namespace Cogent_Deals
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
+        public int CatId { get; set; }
+
+        public Category Category { get; set; }
+
         public int Count = 0;
 
         private bool isBusy;
@@ -30,15 +34,18 @@ namespace Cogent_Deals
             }
         }
 
-        private ObservableCollection<Deal> _items;
+        public async Task InitializeCatAsync(int catId)
+        {
+            RestClient restClient = new RestClient();
+            this.Category = await restClient.GetCatAsync(catId);
+        }
 
         public ObservableCollection<Deal> Items { get; set; }
 
         public async Task InitializeDealsAsync()
         {
             RestClient restClient = new RestClient();
-
-            Items = await restClient.GetAsync("http://cogentdeals.com/api/get/content/articles?catid=109&limit=15&maxsubs=10");
+            Items = await restClient.GetAsync(CatId);
         }
 
         public async Task LoadMore(int count)
@@ -46,7 +53,7 @@ namespace Cogent_Deals
             this.IsBusy = true;
 
             RestClient restClient = new RestClient();
-            var moreItems = await restClient.GetAsync(string.Format("http://cogentdeals.com/api/get/content/articles?catid=109&limit=15&maxsubs=10&offset={0}", count * 15));
+            var moreItems = await restClient.GetAsync(CatId, count * 15);
 
             foreach (var deal in moreItems)
             {

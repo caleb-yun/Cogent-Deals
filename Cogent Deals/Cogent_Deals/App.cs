@@ -12,7 +12,13 @@ namespace Cogent_Deals
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new MainPage());
+            TabbedPage TabsPage = new TabbedPage() { Title = "Deals" };
+            TabsPage.Children.Add(new MainPage(109) { Title = "Main" });
+            TabsPage.Children.Add(new MainPage(105) { Title = "Computers" });
+            TabsPage.Children.Add(new MainPage(106) { Title = "Graphics Cards" });
+            TabsPage.Children.Add(new MainPage(108) { Title = "Mobile" });
+
+            MainPage = new NavigationPage(TabsPage);
             MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
         }
 

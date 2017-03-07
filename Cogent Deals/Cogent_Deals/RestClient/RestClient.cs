@@ -19,8 +19,10 @@ namespace Plugin.RestClient
     {
         private const string WebServiceUrl = "http://cogentdeals.com/api/get/content/articles?catid=109&limit=10&maxsubs=10";
 
-        public async Task<ObservableCollection<Deal>> GetAsync(string uri)
+        public async Task<ObservableCollection<Deal>> GetAsync(int catId, int offset = 0)
         {
+            string uri = string.Format("http://cogentdeals.com/api/get/content/articles?catid={0}&limit=15&maxsubs=10&offset={1}", catId, offset);
+
             var httpClient = new HttpClient();
             var response = await httpClient.GetStringAsync(uri);
 
@@ -36,6 +38,18 @@ namespace Plugin.RestClient
                 }
 
             return Deals;
+        }
+
+        public async Task<Category> GetCatAsync(int catId)
+        {
+            string uri = "http://cogentdeals.com/api/get/content/categories/" + catId.ToString();
+
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(uri);
+
+            Category category = JsonConvert.DeserializeObject<Category>(response);
+
+            return category;
         }
 
         /*

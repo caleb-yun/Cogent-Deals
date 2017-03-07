@@ -13,12 +13,15 @@ namespace Cogent_Deals
     {
         MainPageViewModel viewModel;
 
-        public MainPage()
+        public MainPage(int catId)
         {
+            this.viewModel = new MainPageViewModel() { CatId = catId };
+
             InitializeComponent();
-            this.viewModel = new MainPageViewModel();
-            LoadDataAsync();
-            BindingContext = this.viewModel;
+            BindingContext = viewModel;
+
+            //loadCatAsync(); Not Working!
+            loadDataAsync();
         }
 
         async public void OnItemTapped(object o, ItemTappedEventArgs e)
@@ -28,12 +31,31 @@ namespace Cogent_Deals
             await Navigation.PushAsync(new DealPage(per), true); // Navigate to DealPage
         }
 
-        private async Task LoadDataAsync()
+        private async Task loadCatAsync()
         {
-            this.DealList.IsRefreshing = true;
-
             try
             {
+                await this.viewModel.InitializeCatAsync(viewModel.CatId);
+                this.BindingContext = this.viewModel;
+                this.Title = viewModel.Category.Title;
+            }
+            catch (InvalidOperationException ex)
+            {
+                await DisplayAlert("Error", "Check your network connection.", "OK");
+                return;
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+                return;
+            }
+        }
+
+        private async Task loadDataAsync()
+        {
+            try
+            {
+                this.DealList.IsRefreshing = true;
                 await this.viewModel.InitializeDealsAsync();
                 this.BindingContext = this.viewModel;
                 DealList.ItemsSource = this.viewModel.Items;
@@ -57,7 +79,7 @@ namespace Cogent_Deals
 
         private async void ListView_Refreshing(object sender, EventArgs e)
         {
-            await LoadDataAsync();
+            await loadDataAsync();
         }
 
         private async void loadMore(object sender, ItemVisibilityEventArgs e)
