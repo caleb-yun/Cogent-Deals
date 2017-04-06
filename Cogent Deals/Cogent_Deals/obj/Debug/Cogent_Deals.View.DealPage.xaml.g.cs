@@ -9,16 +9,15 @@
 //------------------------------------------------------------------------------
 
 namespace Cogent_Deals {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Caleb\\Documents\\Visual Studio 2015\\Projects\\Cogent-Deals\\Cogent Deals\\Co" +
+        "gent_Deals\\View\\DealPage.xaml")]
     public partial class DealPage : global::Xamarin.Forms.ContentPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(DealPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DealPage));
         }
     }
 }

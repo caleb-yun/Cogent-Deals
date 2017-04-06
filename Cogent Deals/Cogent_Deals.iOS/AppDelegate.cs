@@ -23,13 +23,16 @@ namespace Cogent_Deals.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(33, 150, 243); //bar background
+            var tint = UIColor.FromRGB(33, 150, 243);
+            UINavigationBar.Appearance.BarTintColor = tint; //bar background
             UINavigationBar.Appearance.TintColor = UIColor.White; //Tint color of button items
             UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes()
             {
                 Font = UIFont.FromName("HelveticaNeue-Light", (nfloat)20f),
                 TextColor = UIColor.White
             });
+            UITabBar.Appearance.SelectedImageTintColor = tint; // Tabbar tint
+            UISwitch.Appearance.OnTintColor = tint; // switch
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());

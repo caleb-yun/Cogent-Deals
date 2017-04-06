@@ -106,7 +106,9 @@ class MonoPackageManager_Resources {
 		"FFImageLoading.Platform.dll",
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
-		"System.ObjectModel.dll",
+		"ModernHttpClient.dll",
+		"Newtonsoft.Json.dll",
+		"OkHttp.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -119,7 +121,6 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
