@@ -11,16 +11,16 @@ namespace Cogent_Deals
 {
     public partial class DealsPage : ContentPage
     {
-        MainPageViewModel viewModel;
+        DealsPageViewModel viewModel;
 
         public DealsPage(int catId)
         {
-            this.viewModel = new MainPageViewModel() { CatId = catId };
+            this.viewModel = new DealsPageViewModel() { CatId = catId };
 
             InitializeComponent();
             BindingContext = viewModel;
 
-            //loadCatAsync(); Not Working!
+            loadCatAsync(); //Not Working!
             loadDataAsync();
         }
 

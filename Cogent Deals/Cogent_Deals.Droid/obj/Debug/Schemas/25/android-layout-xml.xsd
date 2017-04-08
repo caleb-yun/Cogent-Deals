@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>4/4/2017 11:48:10 PM</xs:documentation>
+    <xs:documentation>4/7/2017 5:17:59 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -82,11 +82,6 @@
       <xs:element ref="RadioGroup" />
       <xs:element ref="TextSwitcher" />
       <xs:element ref="fragment" />
-      <xs:element ref="FFImageLoading.Forms.Droid.CachedImageView" />
-      <xs:element ref="FFImageLoading.Forms.Droid.CachedImageRenderer" />
-      <xs:element ref="FFImageLoading.Views.ImageViewAsync" />
-      <xs:element ref="FFImageLoading.Views.ManagedImageView" />
-      <xs:element ref="FFImageLoading.Cross.MvxImageLoadingView" />
       <xs:element ref="com.xamarin.forms.platform.android.FormsViewGroup" />
       <xs:element ref="android.support.design.widget.VisibilityAwareImageButton" />
       <xs:element ref="android.support.design.widget.TextInputLayout" />
@@ -140,6 +135,12 @@
       <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
       <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
       <xs:element ref="android.support.v7.app.MediaRouteButton" />
+      <xs:element ref="FFImageLoading.Forms.Droid.CachedImageView" />
+      <xs:element ref="FFImageLoading.Forms.Droid.CachedImageRenderer" />
+      <xs:element ref="FFImageLoading.Views.ImageViewAsync" />
+      <xs:element ref="FFImageLoading.Views.ManagedImageView" />
+      <xs:element ref="FFImageLoading.Cross.MvxImageLoadingView" />
+      <xs:element ref="Cogent_Deals.Droid.NavigationViewRenderer" />
     </xs:choice>
   </xs:group>
   <xs:element name="CheckedTextView" type="CheckedTextView">
@@ -1456,56 +1457,6 @@
     <xs:attribute ref="android:layout_marginEnd" />
     <xs:attribute ref="android:style" />
   </xs:complexType>
-  <xs:element name="FFImageLoading.Forms.Droid.CachedImageView" type="FFImageLoading.Forms.Droid.CachedImageView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: FFImageLoading.Forms.Droid.CachedImageView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="FFImageLoading.Forms.Droid.CachedImageView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ImageView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="FFImageLoading.Forms.Droid.CachedImageRenderer" type="FFImageLoading.Forms.Droid.CachedImageRenderer">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: FFImageLoading.Forms.Droid.CachedImageRenderer</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="FFImageLoading.Forms.Droid.CachedImageRenderer">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="FFImageLoading.Views.ImageViewAsync" type="FFImageLoading.Views.ImageViewAsync">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: FFImageLoading.Views.ImageViewAsync</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="FFImageLoading.Views.ImageViewAsync">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ImageView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="FFImageLoading.Views.ManagedImageView" type="FFImageLoading.Views.ManagedImageView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: FFImageLoading.Views.ManagedImageView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="FFImageLoading.Views.ManagedImageView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ImageView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="FFImageLoading.Cross.MvxImageLoadingView" type="FFImageLoading.Cross.MvxImageLoadingView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: FFImageLoading.Cross.MvxImageLoadingView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="FFImageLoading.Cross.MvxImageLoadingView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ImageView" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:element name="com.xamarin.forms.platform.android.FormsViewGroup" type="com.xamarin.forms.platform.android.FormsViewGroup">
     <xs:annotation>
       <xs:documentation>Runtime Type: Xamarin.Forms.Platform.Android.FormsViewGroup</xs:documentation>
@@ -2184,6 +2135,66 @@
       <xs:extension base="View">
         <xs:attribute ref="app:externalRouteEnabledDrawable" />
       </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FFImageLoading.Forms.Droid.CachedImageView" type="FFImageLoading.Forms.Droid.CachedImageView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FFImageLoading.Forms.Droid.CachedImageView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FFImageLoading.Forms.Droid.CachedImageView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FFImageLoading.Forms.Droid.CachedImageRenderer" type="FFImageLoading.Forms.Droid.CachedImageRenderer">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FFImageLoading.Forms.Droid.CachedImageRenderer</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FFImageLoading.Forms.Droid.CachedImageRenderer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FFImageLoading.Views.ImageViewAsync" type="FFImageLoading.Views.ImageViewAsync">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FFImageLoading.Views.ImageViewAsync</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FFImageLoading.Views.ImageViewAsync">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FFImageLoading.Views.ManagedImageView" type="FFImageLoading.Views.ManagedImageView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FFImageLoading.Views.ManagedImageView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FFImageLoading.Views.ManagedImageView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FFImageLoading.Cross.MvxImageLoadingView" type="FFImageLoading.Cross.MvxImageLoadingView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: FFImageLoading.Cross.MvxImageLoadingView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FFImageLoading.Cross.MvxImageLoadingView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Cogent_Deals.Droid.NavigationViewRenderer" type="Cogent_Deals.Droid.NavigationViewRenderer">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Cogent_Deals.Droid.NavigationViewRenderer</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Cogent_Deals.Droid.NavigationViewRenderer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
     </xs:complexContent>
   </xs:complexType>
 </xs:schema>

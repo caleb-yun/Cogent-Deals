@@ -20,27 +20,26 @@ namespace Cogent_Deals.Droid
         {
 
             base.OnElementChanged(e);
+
             if (e.OldElement != null || Element == null)
                 return;
-
 
             var view = Inflate(Forms.Context, Resource.Layout.nav_view, null);
             navView = view.JavaCast<Android.Support.Design.Widget.NavigationView>();
 
+            SetNativeControl(navView);
 
             navView.NavigationItemSelected += NavView_NavigationItemSelected;
 
-            navView.SetCheckedItem(Resource.Id.nav_feed);
+            navView.SetCheckedItem(Resource.Id.nav_home);
         }
 
         IMenuItem previousItem;
 
         void NavView_NavigationItemSelected(object sender, Android.Support.Design.Widget.NavigationView.NavigationItemSelectedEventArgs e)
         {
-
-
-            if (previousItem != null)
-                previousItem.SetChecked(false);
+            //if (previousItem != null)
+                //previousItem.SetChecked(false);
 
             navView.SetCheckedItem(e.MenuItem.ItemId);
 
@@ -49,50 +48,31 @@ namespace Cogent_Deals.Droid
             int id = 0;
             switch (e.MenuItem.ItemId)
             {
-                case Resource.Id.nav_feed:
-                    id = (int)AppPage.Feed;
+                case Resource.Id.nav_home:
+                    id = (int)AppPage.Home;
                     break;
-                case Resource.Id.nav_sessions:
-                    id = (int)AppPage.Sessions;
+                case Resource.Id.nav_deals:
+                    id = (int)AppPage.Deals;
                     break;
-                case Resource.Id.nav_events:
-                    id = (int)AppPage.Events;
+                case Resource.Id.nav_settings:
+                    id = (int)AppPage.Settings;
                     break;
-                case Resource.Id.nav_mini_hacks:
-                    id = (int)AppPage.MiniHacks;
+                case Resource.Id.nav_about:
+                    id = (int)AppPage.About;
                     break;
             }
             this.Element.OnNavigationItemSelected(new Cogent_Deals.NavigationItemSelectedEventArgs
             {
-
                 Index = id
             });
         }
 
         public enum AppPage
         {
-            Feed,
-            Sessions,
-            Events,
-            MiniHacks,
-            Sponsors,
-            Venue,
-            FloorMap,
-            ConferenceInfo,
+            Home,
+            Deals,
             Settings,
-            Session,
-            Speaker,
-            Sponsor,
-            Login,
-            Event,
-            Notification,
-            TweetImage,
-            WiFi,
-            CodeOfConduct,
-            Filter,
-            Information,
-            Tweet,
-            Evals
+            About
         }
     }
 }

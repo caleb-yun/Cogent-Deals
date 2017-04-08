@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent deals\cogent deals\cogent_deals.winphone\obj\debug\intermediatexaml\cogent_deals.winphone.exe" HashGuid="af022a60-8077-bbc1-73ec-b2bd6e0acfc6" />
-    <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent-deals\cogent deals\cogent_deals\bin\debug\cogent_deals.dll" HashGuid="0c4fd62f-9d24-0969-afd3-30faf74bd9d9" />
+    <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent-deals\cogent deals\cogent_deals\bin\debug\cogent_deals.dll" HashGuid="6d129560-0eb0-6edd-aff1-76d5a408f9d7" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent-deals\packages\xamarin.ffimageloading.2.2.9\lib\portable-netcore45+wpa81\ffimageloading.dll" HashGuid="92fa332c-834b-8698-dbe5-3253146e8f32" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent-deals\packages\xamarin.ffimageloading.forms.2.2.9\lib\portable-netcore45+wpa81\ffimageloading.forms.dll" HashGuid="670f0a24-0c3b-e86e-d918-79dee03d3937" />
     <ReferenceAssembly PathName="c:\users\caleb\documents\visual studio 2015\projects\cogent-deals\packages\xamarin.ffimageloading.forms.2.2.9\lib\portable-netcore45+wpa81\ffimageloading.forms.winrt.dll" HashGuid="d1c80c62-69a4-534a-8e03-04045b7dadc6" />

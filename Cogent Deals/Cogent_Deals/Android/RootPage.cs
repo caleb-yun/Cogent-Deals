@@ -17,7 +17,7 @@ namespace Cogent_Deals
             pages = new Dictionary<int, NavigationPage>();
             Master = new MenuPage(this);
 
-            pages.Add(0, new NavigationPage(new DealsPage(109)));
+            pages.Add(0, new NavigationPage(new HomePage()));
 
             Detail = pages[0];
         }
@@ -30,8 +30,8 @@ namespace Cogent_Deals
                 //only cache specific pages
                 switch (menuId)
                 {
-                    case (int)AppPage.Main:
-                        pages.Add(menuId, new NavigationPage(new DealsPage(109)));
+                    case (int)AppPage.Home:
+                        pages.Add(menuId, new NavigationPage(new HomePage()));
                         break;
                     case (int)AppPage.Computers:
                         pages.Add(menuId, new NavigationPage(new DealsPage(105)));
@@ -62,7 +62,7 @@ namespace Cogent_Deals
 
         public enum AppPage
         {
-            Main,
+            Home,
             Computers,
             GraphicsCards,
             Mobile

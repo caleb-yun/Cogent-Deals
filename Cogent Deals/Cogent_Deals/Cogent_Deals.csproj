@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Android\RootPage.cs" />
     <Compile Include="App.cs" />
+    <Compile Include="Controls\CardView.cs" />
     <Compile Include="Controls\NavigationView.cs" />
     <Compile Include="iOS\RootPage.cs" />
     <Compile Include="Model\Category.cs" />
@@ -45,15 +46,18 @@
     <Compile Include="Services\RestClient.cs" />
     <Compile Include="Services\TaskModel.cs" />
     <Compile Include="ViewModel\DealPageViewModel.cs" />
-    <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="ViewModel\DealsPageViewModel.cs" />
     <Compile Include="View\DealPage.xaml.cs">
       <DependentUpon>DealPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\DealsPage.xaml.cs">
       <DependentUpon>DealsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\MenuPage.xaml.cs">
+    <Compile Include="Android\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -123,11 +127,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\MenuPage.xaml">
+    <EmbeddedResource Include="Android\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">

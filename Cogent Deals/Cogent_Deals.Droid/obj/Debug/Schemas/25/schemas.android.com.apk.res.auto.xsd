@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>4/4/2017 11:48:10 PM</xs:documentation>
+    <xs:documentation>4/7/2017 5:17:59 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -1128,6 +1128,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -1146,6 +1149,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -1403,6 +1407,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -1629,6 +1634,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -1647,6 +1655,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2030,6 +2039,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -2048,6 +2060,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2431,6 +2444,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -2449,6 +2465,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4488,6 +4505,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -4506,6 +4526,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4889,6 +4910,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -4907,6 +4931,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5164,6 +5189,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -5367,6 +5393,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -5385,6 +5414,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5984,6 +6014,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -6002,6 +6035,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6385,6 +6419,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -6403,6 +6440,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7637,6 +7675,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -7655,6 +7696,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8038,6 +8080,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -8056,6 +8101,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8502,6 +8548,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -8520,6 +8569,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8903,6 +8953,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -8921,6 +8974,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9400,6 +9454,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -9418,6 +9475,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9723,6 +9781,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -10010,6 +10069,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -10028,6 +10090,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -10490,6 +10553,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -10508,6 +10574,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -11067,6 +11134,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -11085,6 +11155,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -11644,6 +11715,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -11662,6 +11736,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12045,6 +12120,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -12063,6 +12141,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12320,6 +12399,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -12523,6 +12603,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -12541,6 +12624,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12798,6 +12882,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -13361,6 +13446,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -13379,6 +13467,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13636,6 +13725,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -13839,6 +13929,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -13857,6 +13950,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14240,6 +14334,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -14258,6 +14355,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14797,6 +14895,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -14815,6 +14916,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15072,6 +15174,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -15499,6 +15602,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -15517,6 +15623,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15900,6 +16007,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -15918,6 +16028,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16490,6 +16601,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -16508,6 +16622,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17067,6 +17182,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -17085,6 +17203,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17342,6 +17461,7 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/library_name" />
             <xs:enumeration value="@string/mr_button_content_description" />
             <xs:enumeration value="@string/mr_chooser_searching" />
             <xs:enumeration value="@string/mr_chooser_title" />
@@ -17545,6 +17665,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -17563,6 +17686,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18122,6 +18246,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -18140,6 +18267,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18835,6 +18963,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -18853,6 +18984,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19236,6 +19368,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -19254,6 +19389,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -21423,6 +21559,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -21441,6 +21580,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22996,6 +23136,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -23014,6 +23157,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23573,6 +23717,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -23591,6 +23738,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23974,6 +24122,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -23992,6 +24143,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24423,6 +24575,9 @@
             <xs:enumeration value="@drawable/ic_tv_light" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/icon_search" />
+            <xs:enumeration value="@drawable/menu_about" />
+            <xs:enumeration value="@drawable/menu_deals" />
+            <xs:enumeration value="@drawable/menu_home" />
             <xs:enumeration value="@drawable/menu_settings" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_dark" />
             <xs:enumeration value="@drawable/mr_dialog_material_background_light" />
@@ -24441,6 +24596,7 @@
             <xs:enumeration value="@drawable/mr_ic_play_light" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@drawable/search" />
+            <xs:enumeration value="@drawable/side_nav_bar" />
             <xs:enumeration value="@drawable/splash_logo" />
             <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />

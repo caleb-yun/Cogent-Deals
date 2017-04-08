@@ -2163,67 +2163,76 @@ namespace Cogent_Deals.Droid
 			public const int icon_search = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int menu_info = 2130837652;
+			public const int menu_about = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int menu_settings = 2130837653;
+			public const int menu_deals = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int mr_dialog_material_background_dark = 2130837654;
+			public const int menu_home = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int mr_dialog_material_background_light = 2130837655;
+			public const int menu_settings = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int mr_ic_audiotrack_light = 2130837656;
+			public const int mr_dialog_material_background_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int mr_ic_cast_dark = 2130837657;
+			public const int mr_dialog_material_background_light = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int mr_ic_cast_light = 2130837658;
+			public const int mr_ic_audiotrack_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int mr_ic_close_dark = 2130837659;
+			public const int mr_ic_cast_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int mr_ic_close_light = 2130837660;
+			public const int mr_ic_cast_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837661;
+			public const int mr_ic_close_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int mr_ic_media_route_connecting_mono_light = 2130837662;
+			public const int mr_ic_close_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int mr_ic_media_route_mono_dark = 2130837663;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int mr_ic_media_route_mono_light = 2130837664;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int mr_ic_pause_dark = 2130837665;
+			public const int mr_ic_media_route_mono_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int mr_ic_pause_light = 2130837666;
+			public const int mr_ic_media_route_mono_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int mr_ic_play_dark = 2130837667;
+			public const int mr_ic_pause_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int mr_ic_play_light = 2130837668;
-			
-			// aapt resource value: 0x7f0200a8
-			public const int notification_template_icon_bg = 2130837672;
+			public const int mr_ic_pause_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int search = 2130837669;
+			public const int mr_ic_play_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int splash_logo = 2130837670;
+			public const int mr_ic_play_light = 2130837670;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int notification_template_icon_bg = 2130837675;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int splash_screen = 2130837671;
+			public const int search = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int side_nav_bar = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int splash_logo = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int splash_screen = 2130837674;
 			
 			static Drawable()
 			{
@@ -2517,38 +2526,32 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f0700a5
-			public const int nav_conference_info = 2131165349;
+			// aapt resource value: 0x7f0700a0
+			public const int nav_about = 2131165344;
 			
 			// aapt resource value: 0x7f0700a2
-			public const int nav_evals = 2131165346;
+			public const int nav_computers = 2131165346;
 			
-			// aapt resource value: 0x7f07009f
-			public const int nav_events = 2131165343;
+			// aapt resource value: 0x7f07009e
+			public const int nav_deals = 2131165342;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int nav_deals_main = 2131165345;
+			
+			// aapt resource value: 0x7f0700a3
+			public const int nav_graphics_cards = 2131165347;
 			
 			// aapt resource value: 0x7f07009d
-			public const int nav_feed = 2131165341;
+			public const int nav_home = 2131165341;
 			
 			// aapt resource value: 0x7f0700a4
-			public const int nav_floor_map = 2131165348;
-			
-			// aapt resource value: 0x7f0700a0
-			public const int nav_mini_hacks = 2131165344;
+			public const int nav_mobile = 2131165348;
 			
 			// aapt resource value: 0x7f07009c
 			public const int nav_section_main = 2131165340;
 			
-			// aapt resource value: 0x7f07009e
-			public const int nav_sessions = 2131165342;
-			
-			// aapt resource value: 0x7f0700a6
-			public const int nav_settings = 2131165350;
-			
-			// aapt resource value: 0x7f0700a1
-			public const int nav_sponsors = 2131165345;
-			
-			// aapt resource value: 0x7f0700a3
-			public const int nav_venue = 2131165347;
+			// aapt resource value: 0x7f07009f
+			public const int nav_settings = 2131165343;
 			
 			// aapt resource value: 0x7f07008c
 			public const int nav_view = 2131165324;
