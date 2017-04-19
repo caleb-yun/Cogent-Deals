@@ -25,16 +25,19 @@
                 </Label>
                 <Label Text="Browse all categories" />
             </StackLayout>
+            <local:CardView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </local:CardView.GestureRecognizers>
         </local:CardView>
 
         <local:CardView>
             <StackLayout Padding="8" Spacing="4">
-                <Label Text="Welcome to CogentDeals!" FontSize="Large">
+                <Label Text="Featured" FontSize="Large">
                     <Label.FontFamily>
                         <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                     </Label.FontFamily>
                 </Label>
-                <Label Text="Search for deals by category or check out the latest deals." />
+                <Label Text="Featured deals." />
             </StackLayout>
         </local:CardView>
     </StackLayout>

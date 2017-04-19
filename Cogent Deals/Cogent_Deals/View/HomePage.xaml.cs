@@ -16,5 +16,10 @@ namespace Cogent_Deals
         {
             InitializeComponent();
         }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DealsPage(109));
+        }
     }
 }

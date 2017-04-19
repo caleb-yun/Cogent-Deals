@@ -79,5 +79,3 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
