@@ -10,8 +10,8 @@ namespace Cogent_Deals
             if (Device.OS == TargetPlatform.iOS)
             {
                 HasShadow = false;
-                OutlineColor = Color.Transparent;
-                BackgroundColor = Color.Transparent;
+                OutlineColor = Color.Silver;
+                //BackgroundColor = Color.Transparent;
             }
         }
     }

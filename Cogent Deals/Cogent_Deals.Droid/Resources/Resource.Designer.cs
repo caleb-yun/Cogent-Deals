@@ -27,6 +27,7 @@ namespace Cogent_Deals.Droid
 		public static void UpdateIdValues()
 		{
 			global::ModernHttpClient.Resource.String.library_name = global::Cogent_Deals.Droid.Resource.String.library_name;
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::Cogent_Deals.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Cogent_Deals.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -1944,13 +1945,13 @@ namespace Cogent_Deals.Droid
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int design_fab_background = 2130837579;
+			public const int cart = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int design_snackbar_background = 2130837580;
+			public const int design_fab_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int heroplaceholder = 2130837581;
+			public const int design_snackbar_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
 			public const int ic_audiotrack = 2130837582;
@@ -2219,20 +2220,35 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f0200a6
 			public const int mr_ic_play_light = 2130837670;
 			
-			// aapt resource value: 0x7f0200ab
-			public const int notification_template_icon_bg = 2130837675;
-			
 			// aapt resource value: 0x7f0200a7
-			public const int search = 2130837671;
+			public const int nav_hero = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int side_nav_bar = 2130837672;
+			public const int notification = 2130837672;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int notification_template_icon_bg = 2130837680;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int splash_logo = 2130837673;
+			public const int plugin_lc_smallicon = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int splash_screen = 2130837674;
+			public const int search = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int side_nav_bar = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int splash_logo = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int splash_screen = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int star = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int toc = 2130837679;
 			
 			static Drawable()
 			{
@@ -2247,8 +2263,8 @@ namespace Cogent_Deals.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07008d
-			public const int action0 = 2131165325;
+			// aapt resource value: 0x7f07008e
+			public const int action0 = 2131165326;
 			
 			// aapt resource value: 0x7f07005a
 			public const int action_bar = 2131165274;
@@ -2274,8 +2290,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07005b
 			public const int action_context_bar = 2131165275;
 			
-			// aapt resource value: 0x7f070091
-			public const int action_divider = 2131165329;
+			// aapt resource value: 0x7f070092
+			public const int action_divider = 2131165330;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2310,8 +2326,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070044
 			public const int buttonPanel = 2131165252;
 			
-			// aapt resource value: 0x7f07008e
-			public const int cancel_action = 2131165326;
+			// aapt resource value: 0x7f07008f
+			public const int cancel_action = 2131165327;
 			
 			// aapt resource value: 0x7f07002b
 			public const int center = 2131165227;
@@ -2325,8 +2341,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070052
 			public const int checkbox = 2131165266;
 			
-			// aapt resource value: 0x7f070094
-			public const int chronometer = 2131165332;
+			// aapt resource value: 0x7f070095
+			public const int chronometer = 2131165333;
 			
 			// aapt resource value: 0x7f070033
 			public const int clip_horizontal = 2131165235;
@@ -2376,8 +2392,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07001c
 			public const int end = 2131165212;
 			
-			// aapt resource value: 0x7f070099
-			public const int end_padder = 2131165337;
+			// aapt resource value: 0x7f07009a
+			public const int end_padder = 2131165338;
 			
 			// aapt resource value: 0x7f070023
 			public const int enterAlways = 2131165219;
@@ -2421,8 +2437,11 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07003f
 			public const int image = 2131165247;
 			
-			// aapt resource value: 0x7f070098
-			public const int info = 2131165336;
+			// aapt resource value: 0x7f070072
+			public const int imageView = 2131165298;
+			
+			// aapt resource value: 0x7f070099
+			public const int info = 2131165337;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -2430,11 +2449,11 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07002f
 			public const int left = 2131165231;
 			
-			// aapt resource value: 0x7f070092
-			public const int line1 = 2131165330;
+			// aapt resource value: 0x7f070093
+			public const int line1 = 2131165331;
 			
-			// aapt resource value: 0x7f070096
-			public const int line3 = 2131165334;
+			// aapt resource value: 0x7f070097
+			public const int line3 = 2131165335;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
@@ -2442,8 +2461,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070041
 			public const int list_item = 2131165249;
 			
-			// aapt resource value: 0x7f070090
-			public const int media_actions = 2131165328;
+			// aapt resource value: 0x7f070091
+			public const int media_actions = 2131165329;
 			
 			// aapt resource value: 0x7f07001d
 			public const int middle = 2131165213;
@@ -2451,110 +2470,110 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070037
 			public const int mini = 2131165239;
 			
-			// aapt resource value: 0x7f07007e
-			public const int mr_art = 2131165310;
-			
-			// aapt resource value: 0x7f070073
-			public const int mr_chooser_list = 2131165299;
-			
-			// aapt resource value: 0x7f070076
-			public const int mr_chooser_route_desc = 2131165302;
+			// aapt resource value: 0x7f07007f
+			public const int mr_art = 2131165311;
 			
 			// aapt resource value: 0x7f070074
-			public const int mr_chooser_route_icon = 2131165300;
-			
-			// aapt resource value: 0x7f070075
-			public const int mr_chooser_route_name = 2131165301;
-			
-			// aapt resource value: 0x7f07007b
-			public const int mr_close = 2131165307;
-			
-			// aapt resource value: 0x7f070081
-			public const int mr_control_divider = 2131165313;
-			
-			// aapt resource value: 0x7f070087
-			public const int mr_control_play_pause = 2131165319;
-			
-			// aapt resource value: 0x7f07008a
-			public const int mr_control_subtitle = 2131165322;
-			
-			// aapt resource value: 0x7f070089
-			public const int mr_control_title = 2131165321;
-			
-			// aapt resource value: 0x7f070088
-			public const int mr_control_title_container = 2131165320;
-			
-			// aapt resource value: 0x7f07007c
-			public const int mr_custom_control = 2131165308;
-			
-			// aapt resource value: 0x7f07007d
-			public const int mr_default_control = 2131165309;
-			
-			// aapt resource value: 0x7f070078
-			public const int mr_dialog_area = 2131165304;
+			public const int mr_chooser_list = 2131165300;
 			
 			// aapt resource value: 0x7f070077
-			public const int mr_expandable_area = 2131165303;
+			public const int mr_chooser_route_desc = 2131165303;
 			
-			// aapt resource value: 0x7f07008b
-			public const int mr_group_expand_collapse = 2131165323;
+			// aapt resource value: 0x7f070075
+			public const int mr_chooser_route_icon = 2131165301;
 			
-			// aapt resource value: 0x7f07007f
-			public const int mr_media_main_control = 2131165311;
+			// aapt resource value: 0x7f070076
+			public const int mr_chooser_route_name = 2131165302;
 			
-			// aapt resource value: 0x7f07007a
-			public const int mr_name = 2131165306;
-			
-			// aapt resource value: 0x7f070080
-			public const int mr_playback_control = 2131165312;
-			
-			// aapt resource value: 0x7f070079
-			public const int mr_title_bar = 2131165305;
+			// aapt resource value: 0x7f07007c
+			public const int mr_close = 2131165308;
 			
 			// aapt resource value: 0x7f070082
-			public const int mr_volume_control = 2131165314;
+			public const int mr_control_divider = 2131165314;
+			
+			// aapt resource value: 0x7f070088
+			public const int mr_control_play_pause = 2131165320;
+			
+			// aapt resource value: 0x7f07008b
+			public const int mr_control_subtitle = 2131165323;
+			
+			// aapt resource value: 0x7f07008a
+			public const int mr_control_title = 2131165322;
+			
+			// aapt resource value: 0x7f070089
+			public const int mr_control_title_container = 2131165321;
+			
+			// aapt resource value: 0x7f07007d
+			public const int mr_custom_control = 2131165309;
+			
+			// aapt resource value: 0x7f07007e
+			public const int mr_default_control = 2131165310;
+			
+			// aapt resource value: 0x7f070079
+			public const int mr_dialog_area = 2131165305;
+			
+			// aapt resource value: 0x7f070078
+			public const int mr_expandable_area = 2131165304;
+			
+			// aapt resource value: 0x7f07008c
+			public const int mr_group_expand_collapse = 2131165324;
+			
+			// aapt resource value: 0x7f070080
+			public const int mr_media_main_control = 2131165312;
+			
+			// aapt resource value: 0x7f07007b
+			public const int mr_name = 2131165307;
+			
+			// aapt resource value: 0x7f070081
+			public const int mr_playback_control = 2131165313;
+			
+			// aapt resource value: 0x7f07007a
+			public const int mr_title_bar = 2131165306;
 			
 			// aapt resource value: 0x7f070083
-			public const int mr_volume_group_list = 2131165315;
+			public const int mr_volume_control = 2131165315;
 			
-			// aapt resource value: 0x7f070085
-			public const int mr_volume_item_icon = 2131165317;
+			// aapt resource value: 0x7f070084
+			public const int mr_volume_group_list = 2131165316;
 			
 			// aapt resource value: 0x7f070086
-			public const int mr_volume_slider = 2131165318;
+			public const int mr_volume_item_icon = 2131165318;
+			
+			// aapt resource value: 0x7f070087
+			public const int mr_volume_slider = 2131165319;
 			
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int nav_about = 2131165344;
-			
-			// aapt resource value: 0x7f0700a2
-			public const int nav_computers = 2131165346;
-			
-			// aapt resource value: 0x7f07009e
-			public const int nav_deals = 2131165342;
-			
 			// aapt resource value: 0x7f0700a1
-			public const int nav_deals_main = 2131165345;
+			public const int nav_about = 2131165345;
 			
 			// aapt resource value: 0x7f0700a3
-			public const int nav_graphics_cards = 2131165347;
-			
-			// aapt resource value: 0x7f07009d
-			public const int nav_home = 2131165341;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int nav_mobile = 2131165348;
-			
-			// aapt resource value: 0x7f07009c
-			public const int nav_section_main = 2131165340;
+			public const int nav_computers = 2131165347;
 			
 			// aapt resource value: 0x7f07009f
-			public const int nav_settings = 2131165343;
+			public const int nav_deals = 2131165343;
 			
-			// aapt resource value: 0x7f07008c
-			public const int nav_view = 2131165324;
+			// aapt resource value: 0x7f0700a2
+			public const int nav_deals_main = 2131165346;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int nav_graphics_cards = 2131165348;
+			
+			// aapt resource value: 0x7f07009e
+			public const int nav_home = 2131165342;
+			
+			// aapt resource value: 0x7f0700a5
+			public const int nav_mobile = 2131165349;
+			
+			// aapt resource value: 0x7f07009d
+			public const int nav_section_main = 2131165341;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int nav_settings = 2131165344;
+			
+			// aapt resource value: 0x7f07008d
+			public const int nav_view = 2131165325;
 			
 			// aapt resource value: 0x7f07006d
 			public const int navigation_header_container = 2131165293;
@@ -2577,8 +2596,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070029
 			public const int pin = 2131165225;
 			
-			// aapt resource value: 0x7f070072
-			public const int profile_name = 2131165298;
+			// aapt resource value: 0x7f070073
+			public const int profile_name = 2131165299;
 			
 			// aapt resource value: 0x7f070006
 			public const int progress_circular = 2131165190;
@@ -2655,8 +2674,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f07009a
-			public const int sliding_tabs = 2131165338;
+			// aapt resource value: 0x7f07009b
+			public const int sliding_tabs = 2131165339;
 			
 			// aapt resource value: 0x7f07006c
 			public const int snackbar_action = 2131165292;
@@ -2685,8 +2704,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070031
 			public const int start = 2131165233;
 			
-			// aapt resource value: 0x7f07008f
-			public const int status_bar_latest_event_content = 2131165327;
+			// aapt resource value: 0x7f070090
+			public const int status_bar_latest_event_content = 2131165328;
 			
 			// aapt resource value: 0x7f070065
 			public const int submit_area = 2131165285;
@@ -2694,17 +2713,17 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f070097
-			public const int text = 2131165335;
+			// aapt resource value: 0x7f070098
+			public const int text = 2131165336;
 			
-			// aapt resource value: 0x7f070095
-			public const int text2 = 2131165333;
+			// aapt resource value: 0x7f070096
+			public const int text2 = 2131165334;
 			
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
 			
-			// aapt resource value: 0x7f070093
-			public const int time = 2131165331;
+			// aapt resource value: 0x7f070094
+			public const int time = 2131165332;
 			
 			// aapt resource value: 0x7f070043
 			public const int title = 2131165251;
@@ -2712,8 +2731,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f070048
 			public const int title_template = 2131165256;
 			
-			// aapt resource value: 0x7f07009b
-			public const int toolbar = 2131165339;
+			// aapt resource value: 0x7f07009c
+			public const int toolbar = 2131165340;
 			
 			// aapt resource value: 0x7f070032
 			public const int top = 2131165234;
@@ -2733,8 +2752,8 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
 			
-			// aapt resource value: 0x7f070084
-			public const int volume_item_container = 2131165316;
+			// aapt resource value: 0x7f070085
+			public const int volume_item_container = 2131165317;
 			
 			// aapt resource value: 0x7f070022
 			public const int withText = 2131165218;

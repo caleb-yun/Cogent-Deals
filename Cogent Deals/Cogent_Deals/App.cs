@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using Plugin.LocalNotifications;
 
 namespace Cogent_Deals
 {
@@ -26,6 +27,8 @@ namespace Cogent_Deals
                     throw new NotImplementedException();
             }
             MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
+
+            //CrossLocalNotifications.Current.Show("Hello!", "This is a notification!", 101, DateTime.Now.AddSeconds(5));
         }
 
         protected override void OnStart()

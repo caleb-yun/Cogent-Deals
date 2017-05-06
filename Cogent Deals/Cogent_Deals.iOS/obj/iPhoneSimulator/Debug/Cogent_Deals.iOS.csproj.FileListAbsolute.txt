@@ -110,5 +110,9 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\obj\iPhoneSimulator\Debug\Cogent_Deals.iOS.exe
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\obj\iPhoneSimulator\Debug\Cogent_Deals.iOS.pdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Cogent_Deals.dll.config
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.Abstractions.xml
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\obj\iPhoneSimulator\Debug\Cogent_Deals.iOS.exe.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.iOS\bin\iPhoneSimulator\Debug\Cogent_Deals.iOS.exe.mdb

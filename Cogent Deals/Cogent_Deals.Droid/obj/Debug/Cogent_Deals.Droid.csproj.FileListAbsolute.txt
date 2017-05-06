@@ -191,10 +191,6 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\menu\nav_menu.xml
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\heroplaceholder.png
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\heroplaceholder.png
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\heroplaceholder.png
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\heroplaceholder.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\icon_search.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\menu_home.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\menu_home.png
@@ -256,5 +252,33 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent_Deals.dll.config
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\side_nav_bar.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Plugin.LocalNotifications.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Plugin.LocalNotifications.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\notification.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\notification.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\notification.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\notification.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxxhdpi\notification.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\toc.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\toc.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\toc.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\toc.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxxhdpi\toc.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\star.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\star.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\star.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\star.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxxhdpi\star.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\cart.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\cart.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\cart.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\cart.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxxhdpi\cart.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\nav_hero.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\nav_hero.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\nav_hero.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\nav_hero.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.mdb

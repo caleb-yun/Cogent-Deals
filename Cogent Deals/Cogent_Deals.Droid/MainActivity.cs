@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Droid;
+using Plugin.LocalNotifications;
 
 namespace Cogent_Deals.Droid
 {
@@ -23,6 +24,8 @@ namespace Cogent_Deals.Droid
             base.SetTheme(Resource.Style.MainTheme);
 
             base.OnCreate(bundle);
+
+            LocalNotificationsImplementation.NotificationIconId = Resource.Drawable.notification;
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());

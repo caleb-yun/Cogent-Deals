@@ -4,41 +4,66 @@
              xmlns:local="clr-namespace:Cogent_Deals;assembly=Cogent_Deals"
              x:Class="Cogent_Deals.HomePage"
              Title="Home">
-    <StackLayout Spacing="16" Padding="8,16">
-        <local:CardView>
-            <StackLayout Padding="8" Spacing="4">
-                <Label Text="Welcome to CogentDeals!" FontSize="Large">
-                    <Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
-                    </Label.FontFamily>
-                </Label>
-                <Label Text="Search for deals by category or check out the latest deals." />
-            </StackLayout>
-        </local:CardView>
+    <ScrollView>
+        <StackLayout Spacing="16" Padding="8,16">
 
-        <local:CardView>
-            <StackLayout Padding="8" Spacing="4">
-                <Label Text="Categories" FontSize="Large">
-                    <Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
-                    </Label.FontFamily>
-                </Label>
-                <Label Text="Browse all categories" />
-            </StackLayout>
-            <local:CardView.GestureRecognizers>
-                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-            </local:CardView.GestureRecognizers>
-        </local:CardView>
+            <local:CardView BackgroundColor="#009688">
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="100" Margin="0">
+                        <Image Source="cart.png" VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
+                        <Label Text="Welcome to CogentDeals!" FontSize="Large">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Search for deals by category or check out the latest deals." />
+                    </StackLayout>
+                </StackLayout>
+                <local:CardView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </local:CardView.GestureRecognizers>
+            </local:CardView>
 
-        <local:CardView>
-            <StackLayout Padding="8" Spacing="4">
-                <Label Text="Featured" FontSize="Large">
-                    <Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
-                    </Label.FontFamily>
-                </Label>
-                <Label Text="Featured deals." />
-            </StackLayout>
-        </local:CardView>
-    </StackLayout>
+            <local:CardView BackgroundColor="#4CAF50">
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="100" Margin="0">
+                        <Image Source="star.png" VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
+                        <Label Text="Featured" FontSize="Large">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Browse through featured deals." />
+                    </StackLayout>
+                </StackLayout>
+                <local:CardView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </local:CardView.GestureRecognizers>
+            </local:CardView>
+
+            <local:CardView BackgroundColor="#8BC34A">
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="100" Margin="0">
+                        <Image Source="toc.png" VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
+                        <Label Text="Categories" FontSize="Large">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Browse through all categories." />
+                    </StackLayout>
+                </StackLayout>
+                <local:CardView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </local:CardView.GestureRecognizers>
+            </local:CardView>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

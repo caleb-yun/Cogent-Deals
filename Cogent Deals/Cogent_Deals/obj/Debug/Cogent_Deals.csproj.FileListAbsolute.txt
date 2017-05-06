@@ -75,6 +75,14 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.pdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csprojResolveAssemblyReference.cache
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.View.HomePage.xaml.g.cs
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Plugin.LocalNotifications.dll
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Plugin.LocalNotifications.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Cogent_Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.dll.mdb
