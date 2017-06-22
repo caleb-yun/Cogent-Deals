@@ -5,7 +5,7 @@ Written in C# with Xamarin.Forms
 
 Blog: [http://cogentdeals.com/blog/](http://cogentdeals.com/blog/)
 
-![iPhone vs Pixel](/images/iPhoneVs/Pixel.png)
+![iPhone vs Pixel](/images/iPhoneVsPixel.png)
 
 ## TODO
 - [x] Lazy item loading
