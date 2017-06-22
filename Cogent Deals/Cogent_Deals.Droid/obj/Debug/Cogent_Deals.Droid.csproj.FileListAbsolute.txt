@@ -189,7 +189,6 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-hdpi\splash_logo.png
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\menu\nav_menu.xml
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\icon_search.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\menu_home.png
@@ -280,5 +279,6 @@ C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\C
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\nav_hero.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xhdpi\nav_hero.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-xxhdpi\nav_hero.png
+C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\res\drawable-mdpi\splash_logo.png
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\obj\Debug\Cogent Deals.dll.mdb
 C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Droid\bin\Debug\Cogent Deals.dll.mdb

@@ -13,12 +13,12 @@
                         <Image Source="cart.png" VerticalOptions="CenterAndExpand"/>
                     </StackLayout>
                     <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
-                        <Label Text="Welcome to CogentDeals!" FontSize="Large">
+                        <Label Text="Welcome to Cogent Deals!" FontSize="Large" TextColor="#de000000">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Search for deals by category or check out the latest deals." />
+                        <Label Text="Search for deals by category or check out the latest deals." TextColor="#8a000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>
@@ -32,12 +32,12 @@
                         <Image Source="star.png" VerticalOptions="CenterAndExpand"/>
                     </StackLayout>
                     <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
-                        <Label Text="Featured" FontSize="Large">
+                        <Label Text="Featured" FontSize="Large" TextColor="#de000000">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Browse through featured deals." />
+                        <Label Text="Browse through featured deals." TextColor="#8a000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>
@@ -51,12 +51,12 @@
                         <Image Source="toc.png" VerticalOptions="CenterAndExpand"/>
                     </StackLayout>
                     <StackLayout Padding="8" Spacing="4" BackgroundColor="White">
-                        <Label Text="Categories" FontSize="Large">
+                        <Label Text="Categories" FontSize="Large" TextColor="#de000000">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Browse through all categories." />
+                        <Label Text="Browse through all categories." TextColor="#8a000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>
