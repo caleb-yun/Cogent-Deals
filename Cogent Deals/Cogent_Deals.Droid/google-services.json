@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "157379475604",
+    "firebase_url": "https://fir-cogent-deals.firebaseio.com",
+    "project_id": "firebase-cogent-deals",
+    "storage_bucket": "firebase-cogent-deals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157379475604:android:3ea5f8bdeadf425f",
+        "android_client_info": {
+          "package_name": "com.cogentworks.cogentdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157379475604-7afe7u10mc6d7hoprlg9dbfo4rlko6b0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "157379475604-gt46pd73htmm3tavb1djtb2bcbfpuvba.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "157379475604-sdkgipn78flpamhv0r6o276pc320tbgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3EFzzqwUbROtNKbbK7OGNT3qlFLhG8rQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,6 @@
 # Cogent Deals
 Mobile application for [Cogent Deals](http://cogentdeals.com/).
-Coming soon to Google Play and Apple App Store (Sorry Windows Phone peeps).
+Coming soon to Google Play and Apple App Stores.
 Written in C# with Xamarin.Forms
 
 Blog: [http://cogentdeals.com/blog/](http://cogentdeals.com/blog/)
@@ -13,9 +13,9 @@ Blog: [http://cogentdeals.com/blog/](http://cogentdeals.com/blog/)
 - [X] FFImageLoading
 - [X] Attribs (Price and link field)
 - [X] Link to webpage
-- [ ] Navigation (`MasterDetailPage` (Android) or `TabbedPage` (iOS))
+- [X] Navigation (`MasterDetailPage` (Android) or `TabbedPage` (iOS))
 - [ ] `SearchBar`
 - [ ] Themes
-- [ ] Setting Menu
+- [ ] Settings Menu
 - [ ] Deep Linking
 - [ ] Notifications
