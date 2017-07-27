@@ -1,3 +1,7 @@
+Cogent_Deals.Droid.FirebaseIIDService, Cogent Deals;md5ff0884bf2c1fa4baaa0709a2acca3a59.FirebaseIIDService
+Cogent_Deals.Droid.FirebaseIIDService, Cogent Deals, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff0884bf2c1fa4baaa0709a2acca3a59.FirebaseIIDService
+Cogent_Deals.Droid.FirebaseIIDService;md5ff0884bf2c1fa4baaa0709a2acca3a59.FirebaseIIDService
+cogent_deals.droid.FirebaseIIDService;md5ff0884bf2c1fa4baaa0709a2acca3a59.FirebaseIIDService
 Cogent_Deals.Droid.MainActivity, Cogent Deals;md5ff0884bf2c1fa4baaa0709a2acca3a59.MainActivity
 Cogent_Deals.Droid.MainActivity, Cogent Deals, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff0884bf2c1fa4baaa0709a2acca3a59.MainActivity
 Cogent_Deals.Droid.MainActivity;md5ff0884bf2c1fa4baaa0709a2acca3a59.MainActivity

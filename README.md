@@ -1,6 +1,6 @@
 # Cogent Deals
 Mobile application for [Cogent Deals](http://cogentdeals.com/).
-Coming soon to Google Play and Apple App Stores.
+Coming soon to Google Play and the App Store.
 Written in C# with Xamarin.Forms
 
 Blog: [http://cogentdeals.com/blog/](http://cogentdeals.com/blog/)
@@ -18,4 +18,4 @@ Blog: [http://cogentdeals.com/blog/](http://cogentdeals.com/blog/)
 - [ ] Themes
 - [ ] Settings Menu
 - [ ] Deep Linking
-- [ ] Notifications
+- [ ] Notifications (FCM)

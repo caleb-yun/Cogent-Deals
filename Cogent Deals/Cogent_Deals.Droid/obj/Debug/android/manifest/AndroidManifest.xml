@@ -6,6 +6,19 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="Cogent Deals" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+    <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="com.cogentworks.cogentdeals" />
+      </intent-filter>
+    </receiver>
+    <service android:name="md5ff0884bf2c1fa4baaa0709a2acca3a59.FirebaseIIDService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+      </intent-filter>
+    </service>
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Cogent Deals" android:theme="@style/splashscreen" android:name="md5ff0884bf2c1fa4baaa0709a2acca3a59.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

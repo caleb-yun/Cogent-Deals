@@ -11,8 +11,8 @@
 namespace Cogent_Deals {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Caleb\\Documents\\Visual Studio 2017\\Projects\\Cogent-Deals\\Cogent Deals\\Co" +
-        "gent_Deals\\View\\DealsPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Caleb\\Documents\\Cogent-Deals\\Cogent Deals\\Cogent_Deals\\View\\DealsPage.xa" +
+        "ml")]
     public partial class DealsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

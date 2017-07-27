@@ -160,7 +160,6 @@ C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Xamari
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csproj.App.config
-C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.csprojResolveAssemblyReference.cache
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.View.DealsPage.xaml.g.cs
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.View.DealPage.xaml.g.cs
 C:\Users\Caleb\Documents\Cogent-Deals\Cogent Deals\Cogent_Deals\obj\Debug\Cogent_Deals.Android.MenuPage.xaml.g.cs
