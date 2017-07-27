@@ -1,2 +1,0 @@
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals.Windows\Cogent_Deals.Windows.csproj;neutral
-C:\Users\Caleb\Documents\Visual Studio 2015\Projects\Cogent-Deals\Cogent Deals\Cogent_Deals\Cogent_Deals.csproj;neutral
