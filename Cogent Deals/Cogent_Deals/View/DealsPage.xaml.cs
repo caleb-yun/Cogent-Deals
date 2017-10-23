@@ -66,7 +66,7 @@ namespace Cogent_Deals
             catch (InvalidOperationException ex)
             {
                 await DisplayAlert("Error", "Check your network connection.", "OK");
-                ErrorText.IsEnabled = true;
+                ErrorText.IsVisible = true;
                 return;
             }
             catch (Exception ex)

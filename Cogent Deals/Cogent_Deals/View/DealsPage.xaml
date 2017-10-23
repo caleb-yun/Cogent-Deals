@@ -18,16 +18,18 @@
                     FontSize="Large"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    IsEnabled="False" />
+                    IsVisible="False" />
             </StackLayout>
             <ListView x:Name="DealList"
-                ItemsSource="{Binding Items}"
-                ItemTapped="OnItemTapped"
-                IsPullToRefreshEnabled="True"
-                Refreshing="ListView_Refreshing"
-                ItemAppearing="LoadMore"
-                CachingStrategy="RetainElement"
-                RowHeight="80" HasUnevenRows="false">
+                      RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+                      RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1,Constant=0}"
+                      ItemsSource="{Binding Items}"
+                      ItemTapped="OnItemTapped"
+                      IsPullToRefreshEnabled="True"
+                      Refreshing="ListView_Refreshing"
+                      ItemAppearing="LoadMore"
+                      CachingStrategy="RetainElement"
+                      RowHeight="80" HasUnevenRows="false" >
                 <ListView.SeparatorColor>
                     <OnPlatform x:TypeArguments="Color" iOS="Silver" />
                 </ListView.SeparatorColor>

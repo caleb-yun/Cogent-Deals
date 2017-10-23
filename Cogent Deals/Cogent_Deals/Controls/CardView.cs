@@ -7,10 +7,11 @@ namespace Cogent_Deals
         public CardView()
         {
             Padding = 0;
-            if (Device.OS == TargetPlatform.iOS)
+            if (Device.RuntimePlatform == Device.iOS)
             {
-                HasShadow = false;
-                OutlineColor = Color.Silver;
+                HasShadow = true;
+                CornerRadius = 2;
+                //OutlineColor = Color.Silver;
                 //BackgroundColor = Color.Transparent;
             }
         }
