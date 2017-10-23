@@ -4,17 +4,28 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="Cogent_Deals.DealsPage">
-    <ContentPage.ToolbarItems>
+    <!--<ContentPage.ToolbarItems>
         <ToolbarItem x:Name="searchToolbarItem" Icon="search.png" Text="Search" />
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>-->
     <ContentPage.Content>
-        <StackLayout>
+        <RelativeLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Orientation="Vertical"
+                         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1,Constant=0}">
+                <Label
+                    x:Name="ErrorText"
+                    Text="Error"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsEnabled="False" />
+            </StackLayout>
             <ListView x:Name="DealList"
                 ItemsSource="{Binding Items}"
                 ItemTapped="OnItemTapped"
                 IsPullToRefreshEnabled="True"
                 Refreshing="ListView_Refreshing"
-                ItemAppearing="loadMore"
+                ItemAppearing="LoadMore"
                 CachingStrategy="RetainElement"
                 RowHeight="80" HasUnevenRows="false">
                 <ListView.SeparatorColor>
@@ -50,6 +61,6 @@
                     </StackLayout>
                 </ListView.Footer>
             </ListView>
-        </StackLayout>
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

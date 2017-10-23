@@ -13,12 +13,13 @@ namespace Cogent_Deals
         public App()
         {
             // The root page of your application
-            switch (Device.OS)
+            switch (Device.RuntimePlatform)
             {
-                case TargetPlatform.Android:
+                //case TargetPlatform.Android:
+                case Device.Android:
                     MainPage = new AndroidRootPage();
                     break;
-                case TargetPlatform.iOS:
+                case Device.iOS:
                     MainPage = new NavigationPage(new iOSRootPage());
                     break;
                 //case TargetPlatform.Windows:

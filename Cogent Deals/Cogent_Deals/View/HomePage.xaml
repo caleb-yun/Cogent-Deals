@@ -18,7 +18,7 @@
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Search for deals by category or check out the latest deals." TextColor="#8a000000"/>
+                        <Label Text="Search for deals by category or check out the latest deals." TextColor="#de000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>
@@ -37,7 +37,7 @@
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Browse through featured deals." TextColor="#8a000000"/>
+                        <Label Text="Browse through featured deals." TextColor="#de000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>
@@ -56,7 +56,7 @@
                                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Browse through all categories." TextColor="#8a000000"/>
+                        <Label Text="Browse through all categories." TextColor="#de000000"/>
                     </StackLayout>
                 </StackLayout>
                 <local:CardView.GestureRecognizers>

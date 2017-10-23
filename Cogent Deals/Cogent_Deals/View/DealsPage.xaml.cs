@@ -19,9 +19,12 @@ namespace Cogent_Deals
 
             InitializeComponent();
             BindingContext = viewModel;
+        }
 
-            loadCatAsync(); //Not Working!
-            loadDataAsync();
+        protected override async void OnAppearing()
+        {
+            await LoadCatAsync();
+            await LoadDataAsync();
         }
 
         async public void OnItemTapped(object o, ItemTappedEventArgs e)
@@ -31,7 +34,7 @@ namespace Cogent_Deals
             await Navigation.PushAsync(new DealPage(per), true); // Navigate to DealPage
         }
 
-        private async Task loadCatAsync()
+        private async Task LoadCatAsync()
         {
             try
             {
@@ -41,17 +44,17 @@ namespace Cogent_Deals
             }
             catch (InvalidOperationException ex)
             {
-                await DisplayAlert("Error", "Check your network connection.", "OK");
+                //await DisplayAlert("Error", "Check your network connection.", "OK");
                 return;
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Error", ex.Message, "OK");
+                //await DisplayAlert("Error", ex.Message, "OK");
                 return;
             }
         }
 
-        private async Task loadDataAsync()
+        private async Task LoadDataAsync()
         {
             try
             {
@@ -63,6 +66,7 @@ namespace Cogent_Deals
             catch (InvalidOperationException ex)
             {
                 await DisplayAlert("Error", "Check your network connection.", "OK");
+                ErrorText.IsEnabled = true;
                 return;
             }
             catch (Exception ex)
@@ -79,10 +83,10 @@ namespace Cogent_Deals
 
         private async void ListView_Refreshing(object sender, EventArgs e)
         {
-            await loadDataAsync();
+            await LoadDataAsync();
         }
 
-        private async void loadMore(object sender, ItemVisibilityEventArgs e)
+        private async void LoadMore(object sender, ItemVisibilityEventArgs e)
         {
             if (viewModel.IsBusy || viewModel.Items.Count == 0)
                 return;

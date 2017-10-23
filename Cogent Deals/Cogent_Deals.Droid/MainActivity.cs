@@ -49,8 +49,8 @@ namespace Cogent_Deals.Droid
 
             DebugAlert(PlayServicesAvailable());
 
-            Log.Debug(TAG, "InstanceID token: " + FirebaseInstanceId.Instance.Token);
-            DebugAlert(FirebaseInstanceId.Instance.Token);
+            //Log.Debug(TAG, "InstanceID token: " + FirebaseInstanceId.Instance.Token);
+            //DebugAlert(FirebaseInstanceId.Instance.Token);
         }
 
         public string PlayServicesAvailable()
