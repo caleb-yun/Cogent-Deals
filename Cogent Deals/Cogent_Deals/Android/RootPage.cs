@@ -34,10 +34,10 @@ namespace Cogent_Deals
                         pages.Add(menuId, new NavigationPage(new HomePage()));
                         break;
                     case (int)AppPage.Computers:
-                        pages.Add(menuId, new NavigationPage(new DealsPage(105)));
+                        newPage = new NavigationPage(new DealsPage(105));
                         break;
                     case (int)AppPage.GraphicsCards:
-                        pages.Add(menuId, new NavigationPage(new DealsPage(106)));
+                        newPage = new NavigationPage(new DealsPage(106));
                         break;
                     case (int)AppPage.Mobile:
                         newPage = new NavigationPage(new DealsPage(108));
@@ -55,6 +55,7 @@ namespace Cogent_Deals
             if (Detail == newPage)
             {
                 await newPage.Navigation.PopToRootAsync();
+                return;
             }
 
             Detail = newPage;

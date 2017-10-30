@@ -15,9 +15,9 @@ namespace Cogent_Deals
             Title = "Deals";
 
             Children.Add(new HomePage() { Title = "Home", Icon="tab_home.png" });
-            Children.Add(new DealsPage(105) { Title = "Deals", Icon = "tab_deals.png" });
-            Children.Add(new DealsPage(106) { Title = "Settings", Icon = "tab_settings.png" });
-            Children.Add(new DealsPage(108) { Title = "About", Icon = "tab_about.png" });
+            Children.Add(new DealsPage(105, "Deals") { Icon = "tab_deals.png" });
+            Children.Add(new DealsPage(106, "Settings") { Icon = "tab_settings.png" });
+            Children.Add(new DealsPage(108, "About") { Icon = "tab_about.png" });
         }
     }
 }

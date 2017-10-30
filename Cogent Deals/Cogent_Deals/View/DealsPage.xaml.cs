@@ -12,9 +12,20 @@ namespace Cogent_Deals
     public partial class DealsPage : ContentPage
     {
         DealsPageViewModel viewModel;
+        bool changeTitle = true;
 
-        public DealsPage(int catId)
+        public DealsPage(int catId, string title = "")
         {
+            if (title == "")
+            {
+                this.changeTitle = true;
+            }
+            else
+            {
+                this.Title = title;
+                this.changeTitle = false;
+            }
+
             this.viewModel = new DealsPageViewModel() { CatId = catId };
 
             InitializeComponent();
@@ -40,7 +51,8 @@ namespace Cogent_Deals
             {
                 await this.viewModel.InitializeCatAsync(viewModel.CatId);
                 this.BindingContext = this.viewModel;
-                this.Title = viewModel.Category.Title;
+                if (this.changeTitle)
+                    this.Title = viewModel.Category.Title;
             }
             catch (InvalidOperationException ex)
             {

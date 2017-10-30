@@ -15,7 +15,6 @@ namespace Cogent_Deals
             // The root page of your application
             switch (Device.RuntimePlatform)
             {
-                //case TargetPlatform.Android:
                 case Device.Android:
                     MainPage = new AndroidRootPage();
                     break;
