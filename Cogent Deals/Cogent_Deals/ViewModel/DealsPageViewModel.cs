@@ -34,6 +34,11 @@ namespace Cogent_Deals
             }
         }
 
+        public DealsPageViewModel(int catId)
+        {
+            CatId = catId;
+        }
+
         public async Task InitializeCatAsync(int catId)
         {
             RestClient restClient = new RestClient();

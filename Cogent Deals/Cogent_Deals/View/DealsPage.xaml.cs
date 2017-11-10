@@ -14,19 +14,22 @@ namespace Cogent_Deals
         DealsPageViewModel viewModel;
         bool changeTitle = true;
 
-        public DealsPage(int catId, string title = "")
+        public DealsPage(int catId, string title)
         {
-            if (title == "")
-            {
-                this.changeTitle = true;
-            }
-            else
-            {
-                this.Title = title;
-                this.changeTitle = false;
-            }
+            changeTitle = false;
+            Title = title;
 
-            this.viewModel = new DealsPageViewModel() { CatId = catId };
+            this.viewModel = new DealsPageViewModel(catId);
+
+            InitializeComponent();
+            BindingContext = viewModel;
+        }
+
+        public DealsPage(int catId)
+        {
+            changeTitle = true;
+
+            this.viewModel = new DealsPageViewModel(catId);
 
             InitializeComponent();
             BindingContext = viewModel;

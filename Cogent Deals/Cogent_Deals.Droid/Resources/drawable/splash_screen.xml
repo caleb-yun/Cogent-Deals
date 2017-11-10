@@ -6,7 +6,6 @@
   <item>
     <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
             android:src="@drawable/splash_logo"
-            android:gravity="fill"
-            layout_width="match_parent"/>
+            android:scaleType="centerCrop"/>
   </item>
 </layer-list>

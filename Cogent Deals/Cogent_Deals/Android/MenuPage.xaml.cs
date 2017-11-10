@@ -25,7 +25,7 @@ namespace Cogent_Deals
             {
                 this.root.IsPresented = false;
 
-                await Task.Delay(225);
+                //await Task.Delay(225);
                 await this.root.NavigateAsync(e.Index);
             };
         }

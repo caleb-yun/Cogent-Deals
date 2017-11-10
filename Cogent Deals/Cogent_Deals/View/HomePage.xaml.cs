@@ -20,7 +20,7 @@ namespace Cogent_Deals
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new DealsPage(109));
+            await Navigation.PushAsync(new DealsPage(109, "All Deals"));
         }
     }
 }

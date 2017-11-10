@@ -3991,6 +3991,27 @@ namespace Cogent_Deals.Droid
 			// aapt resource value: 0x7f0b0010
 			public const int common_signin_button_text_long = 2131427344;
 			
+			// aapt resource value: 0x7f0b0051
+			public const int default_web_client_id = 2131427409;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int firebase_database_url = 2131427410;
+			
+			// aapt resource value: 0x7f0b004f
+			public const int gcm_defaultSenderId = 2131427407;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int google_api_key = 2131427411;
+			
+			// aapt resource value: 0x7f0b0050
+			public const int google_app_id = 2131427408;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int google_crash_reporting_api_key = 2131427412;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int google_storage_bucket = 2131427413;
+			
 			// aapt resource value: 0x7f0b004e
 			public const int library_name = 2131427406;
 			
